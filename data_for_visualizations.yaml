@@ -1,0 +1,29 @@
+---
+addresses:
+  token:
+    crvAddress: "0xD533a949740bb3306d119CC777fa900bA034cd52"
+    cvxAddress: "0x4e3FBD56CD56c3e72c1403e103b45Db9da5B9D2B"
+    cvxCrvAddress: "0x62B9c7356A2Dc64a1969e19C23e4f579F9810Aa7"
+paths:
+  data:
+    cvx_token_supply_df: '../data/cvx_totalSupply'
+    crv_virtualprice: '../data/virtualPrice'
+    cvx_rewards_supply: '../data/rewardRate_totalSupply'
+parameters:
+  blocks_per_day: 3238
+first_blocks:
+  BaseRewardPool:
+    alusd: 12527364
+    reth: 12534453
+    tricrypto: 12665072
+    tricrypto2: 12962438
+    eurt: 12968290
+    mim: 13017073
+    cvxcrv: 13193945
+    ust-wormhole: 13732984
+    ousd: 13619204
+    d3pool: 13643221
+    ironbank: 11831189
+    fei: 13091196
+  pools:
+    ignore: ['fixedforex:jpy', "fixedforex:gbp", 'fixedforex:aud', 'fixedforex:eur', 'ixedforex:chf', 'fixedforex:krw', 'aleth'] 
